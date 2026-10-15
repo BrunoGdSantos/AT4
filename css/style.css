@@ -1,0 +1,12 @@
+.carousel-img {
+  width: 100%;
+  height: calc(100vh - 56px);
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 768px) {
+  .carousel-img {
+    height: 60vh;
+  }
+}
